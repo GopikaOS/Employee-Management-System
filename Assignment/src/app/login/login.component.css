@@ -1,0 +1,61 @@
+.background-radial-gradient {
+    background-color: hsl(218, 41%, 15%);
+    background-image: radial-gradient(650px circle at 0% 0%,
+    white,
+    white,
+    white,
+    white,
+    white);
+
+}
+
+  #radius-shape-1 {
+    height: 220px;
+    width: 220px;
+    top: -60px;
+    left: -130px;
+    background: radial-gradient(#2DB780,#2DB780);
+    overflow: hidden;
+  }
+
+  #radius-shape-2 {
+    border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+    bottom: -60px;
+    right: -110px;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(#2DB780,#2DB780);
+    overflow: hidden;
+  
+  }
+
+  .bg-glass {
+    background-color: hsla(0, 0%, 100%, 0.9) !important;
+    backdrop-filter: saturate(200%) blur(25px);
+  }
+  .image{
+    width: 300px; /* Set the width of the image */
+    height: 300px; /* Set the height of the image */
+    object-fit: cover; /* Maintain the aspect ratio and cover the container */
+    
+  }
+  .image1{
+    width: auto;
+    height: auto;
+  }
+  .location{
+    font-family:inherit;
+    color: #1F378C;
+    text-size-adjust: 5%;
+   
+  }
+ 
+.login
+{
+  justify-content: center;
+  margin-left: 120px;
+}
+.loginbox{
+  height :250px;
+  margin-bottom: 100px;
+}

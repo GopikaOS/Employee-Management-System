@@ -1,0 +1,99 @@
+{
+  "posts": [
+    {
+      "id": "789",
+      "fullName": "sreelakhmi",
+      "gender": "female",
+      "dob": "2023-12-22",
+      "email": "sree@gmail.com",
+      "phone": "7894561236",
+      "hometown": "ernakulam",
+      "department": "software ",
+      "position": "hr",
+      "Role": "employee",
+      "password": "0000900789"
+    },
+    {
+      "id": "90",
+      "fullName": "sharmi",
+      "gender": "female",
+      "dob": "2023-12-20",
+      "email": "sharmi@gmail.com",
+      "phone": "8726872354",
+      "hometown": "thrissur",
+      "department": "IT",
+      "position": "Senior Software Engineer",
+      "Role": "employee",
+      "password": "9000"
+    },
+    {
+      "id": "85",
+      "fullName": "vignesh",
+      "gender": "male",
+      "dob": "2023-12-22",
+      "email": "vignesh@gmail.com",
+      "phone": "4569871235",
+      "hometown": "malapuram",
+      "department": "IT",
+      "position": "junior Software Engineer",
+      "Role": "department",
+      "password": "78956"
+    },
+    {
+      "id": "78",
+      "fullName": "sushil",
+      "gender": "male",
+      "dob": "2023-12-07",
+      "email": "sushil@gmail.com",
+      "phone": "7025708685",
+      "hometown": "pullut",
+      "department": "IT",
+      "position": "junior Software Engineer",
+      "Role": "employee",
+      "password": "00078"
+    },
+    {
+      "id": "7845",
+      "fullName": "sushil",
+      "gender": "male",
+      "dob": "2023-12-27",
+      "email": "sushil@gmail.com",
+      "phone": "7025708685",
+      "hometown": "pullut",
+      "department": "IT",
+      "position": "junior Software Engineer",
+      "Role": "employee",
+      "password": "008999"
+    },
+    {
+      "id": "123",
+      "fullName": "aromal",
+      "gender": "male",
+      "dob": "2023-12-14",
+      "email": "aromal@gmal.com",
+      "phone": "7894561236",
+      "hometown": "malapuram",
+      "department": "software",
+      "position": "hr",
+      "Role": "employee",
+      "password": "123"
+    },
+    {
+      "id": "23",
+      "fullName": "Gopika O S",
+      "gender": "female",
+      "dob": "2023-12-09",
+      "email": "gopika@gmail.com",
+      "phone": "7025708685",
+      "hometown": "pullut",
+      "department": "software",
+      "position": "hr",
+      "Role": "employee",
+      "password": "123"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,13 @@
+
+
+
+.image {
+    width: 100%;
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: auto;
+    /* filter: blur(1.5rem); Use 'rem' for more consistent sizing */
+}
+
+
+
+

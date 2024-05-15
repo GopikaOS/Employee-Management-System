@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+     
+
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/v4-shims.css">
+</head>
+<body>
+
+    <div class="background-image position-absolute">
+        <div class="bgimage">
+            <img class="image" src="assets\list employee.png">
+        </div>
+    </div>
+    <!-- <mat-form-field>
+        <mat-label>Filter</mat-label>
+        <input matInput (keyup)="applyFilter($event)" placeholder="Ex. Mia" #input>
+      </mat-form-field> -->
+    <div class="container-fluid position-relative">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Employee.id</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Gender</th>
+                    <th scope="col">DOB</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">phone number</th>
+                    <th scope="col">Hometown</th>
+                    <th scope="col">position</th>
+                    <th scope="col">Department</th>
+                    <th scope="col">Password</th>
+                    <th scope="col">Role</th>
+                    <th scope="col">Action</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr *ngFor="let user of listemployee">
+                  <th scope ="row">{{user.id}}</th>
+                  <th> {{user.fullName}}</th>
+                  <th> {{user.gender}}</th>
+                  <th> {{user.dob}}</th>
+                  <th> {{user.email}}</th>
+                  <th> {{user.phone}}</th>
+                  <th> {{user.hometown}}</th>
+                  <th> {{user.position}}</th>
+                  <th> {{user.department}}</th>
+                  <th> {{user.password}}</th>
+                  <th> {{user.Role}}</th>
+                  <th>
+                    <i (click)="updateEmployeeDialog(user)"style="color:#1F378C;" class="fa fa-solid fa-pencil"></i>&nbsp;
+                    <i (click)="deleteuser(user)"  style="color:red;" class="fa fa-solid fa-trash"></i>
+                  </th>
+                  
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>

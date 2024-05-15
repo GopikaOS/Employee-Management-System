@@ -1,0 +1,33 @@
+<body>
+    <header>
+        <h1>WELCOME {{fullName}} </h1>
+
+    </header>
+
+    <main>
+        <div class="container col-md-8">
+            <div class="colleageView">
+                <button class="btn btn-success mt-4" type="button" routerLink="/HomeEmployee/employeedisplay">
+                    <i class="bi bi-list"></i> view your colleagues
+                </button>
+            </div>
+            <!-- <div class="employee-card" *ngFor="let user of employeedisplay"> -->
+            <div class="employee-card">
+                <h2>ID: {{id}}</h2>
+                <div class="card-body">
+                    <p><strong>Full Name:</strong> {{fullName}}</p>
+                    <p><strong>Gender:</strong> {{gender}}</p>
+                    <p><strong>Date of Birth:</strong> {{dob}}</p>
+                    <p><strong>Email:</strong> {{email}}</p>
+                    <p><strong>Phone:</strong> {{phone}}</p>
+                    <p><strong>Hometown:</strong> {{hometown}}</p>
+                    <p><strong>Position:</strong> {{position}}</p>
+                    <p><strong>Department:</strong> {{department}}</p>
+                    <p><strong>Role:</strong> {{Role}}</p>
+                    <p><strong>Role:</strong> {{password}}</p>
+                </div>
+            
+            </div>
+        </div>
+    </main>
+</body>

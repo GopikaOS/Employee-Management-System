@@ -1,0 +1,35 @@
+
+<div class="background-image">
+    <div class="bgimage">
+    <img class="image" src="assets\departlogin.png">
+    </div>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                    <div class="textbox">
+                    <h1 class="  my-5 display-5 fw-bold ls-tight text-center" style="color: #03188f;">
+                        
+                        WELCOME<br />ADMIN PORTAL
+                    </h1>
+                    </div>
+
+                    <div class="buttonstyle">
+                        <div class="d-flex flex-row">
+                            <button (click)="addEmployeeDialog()"class="btn btn-primary me-2" type="button">
+                                <i class="bi bi-person-plus"></i> Add Employee
+                            </button>
+                            <button class="btn btn-success me-2" type="button" routerLink="/HomeDepartment/listemployee">
+                                <i class="bi bi-list"></i> List Employees
+                            </button>
+                            <button (click)="deleteEmployee()"class="btn btn-danger" type="button">
+                                <i class="bi bi-person-x"></i> Delete Employee
+                            </button>
+                            
+                        </div>
+                    </div>
+                   
+                    
+            </div>
+        </div>
+    </div>
+</div>
